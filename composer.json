@@ -1,0 +1,21 @@
+{
+	"name": "turanct/endlesslist",
+	"description": "An endless list!",
+	"type": "library",
+	"homepage": "http://github.com/turanct",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Toon Daelman",
+			"email": "spinnewebber_toon@hotmail.com",
+			"homepage": "http://turanct.wordpress.com",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"Turanct": "src"
+		}
+	}
+}
