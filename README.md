@@ -31,7 +31,14 @@ in your `composer.json` file:
 
 ```json
 {
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/turanct/EndlessList.git"
+		}
+	]
 	"require": {
+		"turanct/endlesslist": "master"
 	}
 }
 ```
@@ -75,4 +82,4 @@ $part = $mappedList->getArray(30);
 
 ### 3. License
 
-Gunpowder is licensed under the *MIT License*
+EndlessList is licensed under the *MIT License*
