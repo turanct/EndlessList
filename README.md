@@ -67,6 +67,8 @@ $list = EndlessList\EndlessListSeries::create(1, function($last) {
 	return $last + 1;
 });
 
+// [1, 2, 3, 4, 5, 6, 7, 8, ...]
+
 // Walk through the list with a foreach loop
 foreach ($list as $key => $value) {
 	// Do something with the generated $value
@@ -87,6 +89,8 @@ use Turanct\EndlessList as EndlessList;
 $list = EndlessList\EndlessListPosition::create(1, function($position) {
 	return $position * 2;
 });
+
+// [2, 4, 6, 8, 10, 12, 14, 16, ...]
 
 // Walk through the list with a foreach loop
 foreach ($list as $key => $value) {
