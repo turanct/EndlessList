@@ -5,7 +5,10 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use Turanct\EndlessList as EndlessList;
 
 // Define fibonacci sequence
+//
 // We're using the function recursively, because a given position is the sum of the two previous positions.
+// Be careful, because if you ask many results, this will eat your CPU alive (because of the recursiveness).
+// For a non-recursive example, see fibonacci2.php
 //
 // f(n) = f(n-1) + f(n-2)
 // preconditions:
